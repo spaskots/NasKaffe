@@ -16,5 +16,3 @@ ___
 1. Da li softwer ili sajt
 *[x]Softwer*
 *[] Sajt*
-
-Testing if collaborator rights are correctly set and are functional.
