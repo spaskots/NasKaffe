@@ -1,4 +1,4 @@
-*##Nas Kaffe* 
+## Nas Kaffe 
 ```bash
 echo "# NasKaffe" >> README.md
 git init
@@ -11,9 +11,9 @@ git push -u origin main
 ---
 ___
 
-*[]Sta treba uraditi
-1.Naci preko cega praviti
-1.Da li softwer ili sajt
-*[x]Softwer 
-*[]Sajt
+*[] Sta treba uraditi
+1. Naci preko cega praviti
+1. Da li softwer ili sajt
+*[x] Softwer 
+*[] Sajt
 
