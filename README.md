@@ -11,9 +11,9 @@ git push -u origin main
 ---
 ___
 
-*[] Sta treba uraditi
+*[] Sta treba uraditi*
 1. Naci preko cega praviti
 1. Da li softwer ili sajt
-*[x] Softwer 
-*[] Sajt
+*[x]Softwer*
+*[] Sajt*
 
