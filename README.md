@@ -17,3 +17,4 @@ ___
 *[x]Softwer*
 *[] Sajt*
 
+Testing if collaborator rights are correctly set and are functional.
