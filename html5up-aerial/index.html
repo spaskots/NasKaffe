@@ -10,8 +10,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
 	<body class="is-preload">
 		<div id="wrapper">
 			<div id="bg"></div>
@@ -28,10 +30,24 @@
 								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
+								<li><a onclick="togglePopup()" class="fa fa-user-circle"><span class="label">Login</span></a></li>							</ul>
 						</nav>
 					</header>
+
+					<div class="popup" id="popup-1">
+						<div class="content">
+							<div class="close-btn" onclick="togglePopup()">
+								×</div>
+
+							<h1>Sign in</h1> 
+							<div class="input-field"><input placeholder="Email" class="validate"></div>
+							<div class="input-field"><input placeholder="Password" class="validate"></div>
+								<button class="second-button">Sign in</button>
+								<p>Don't have an account? <a href="/signup.html">Sign Up</a></p>
+
+						</div>
+					</div>
+
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -44,6 +60,7 @@
 			window.onload = function() { document.body.classList.remove('is-preload'); }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			function togglePopup() { document.getElementById("popup-1").classList.toggle("active"); }
 		</script>
 		<div>
 			<p>Odavde sam pocinjem</p>
