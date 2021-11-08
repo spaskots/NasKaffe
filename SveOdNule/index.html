@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/card.css" />
     <title>Nas Kaffe</title>
 </head>
 <body>
@@ -13,16 +15,16 @@
         </div>
         <ul class="nav-links">
             <li>
-                <a href="#">Kuca</a>
+                <a href="#">Pocetna</a>
             </li>
             <li>
-                <a href="#">O nama</a>
+                <a href="#">Instagram</a>
             </li>
             <li>
-                <a href="#">Posao</a>
+                <a href="#">Facebook</a>
             </li>
             <li>
-                <a href="#">Projekat</a>
+                <a href="#">Narudzbina</a>
             </li>
         </ul>
         <div class="burger">
@@ -32,5 +34,110 @@
         </div>
     </nav>
     <script src="assets/js/header.js"></script>
+
+
+<!-- Odavde Krece sve ono sto se nalazi ispod header-a-->
+<div id="slider">
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <div id="slides">
+       <div id="overflow">
+          <div class="inner">
+             <div class="slide slide_1">
+                <div class="slide-content">
+                   <h2>Nas Kaffe</h2>
+                   <p>Content for Slide 1</p>
+                </div>
+             </div>
+             <div class="slide slide_2">
+                <div class="slide-content">
+                   <h2>Nas Kaffe</h2>
+                   <p>Content for Slide 2</p>
+                </div>
+             </div>
+             <div class="slide slide_3">
+                <div class="slide-content">
+                   <h2>Nas Kaffe</h2>
+                   <p>Content for Slide 3</p>
+                </div>
+             </div>
+             <div class="slide slide_4">
+                <div class="slide-content">
+                   <h2>Nas Kaffe</h2>
+                   <p>Content for Slide 4</p>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <div id="controls">
+       <label for="slide1"></label>
+       <label for="slide2"></label>
+       <label for="slide3"></label>
+       <label for="slide4"></label>
+    </div>
+   
+    <div id="bullets">
+       <label for="slide1"></label>
+       <label for="slide2"></label>
+       <label for="slide3"></label>
+       <label for="slide4"></label>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#ffc244" fill-opacity="1" d="M0,192L60,165.3C120,139,240,85,360,90.7C480,96,600,160,720,186.7C840,213,960,203,1080,181.3C1200,160,1320,128,1380,112L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+ </div>
+ <!--Cards-->
+ <div class="container1">
+    <div class="card">
+       <div class="content">
+         <img class="dodatak" src="../SveOdNule/assets/slike/dorucak.webp" > 
+          <h2>8:00-10:00</h2>
+          <h3>Dorucak</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Accusamus quos minus, tenetur earum quas cum facere voluptate. Earum aut tenetur 
+             libero veritatis dignissimos ipsum architecto dolorum quae totam? Dolorem, sapiente?</p>
+             <a href="#">Pogledaj vise</a>
+             
+       </div>
+    </div>
+    <div class="card">
+      <div class="content">
+         <img class="dodatak" src="../SveOdNule/assets/slike/restaurants.svg" > 
+         <h2>12:00-16:00</h2>
+         <h3>Rucak</h3>
+         <p>Lorem, ipsum dolor sit amet consectetur
+             adipisicing elit. Accusamus quos minus, tenetur earum quas cum facere voluptate. Earum aut tenetur 
+            libero veritatis dignissimos ipsum architecto dolorum quae totam? Dolorem, sapiente?</p>
+            <a href="#">Pogledaj vise</a>
+      </div>
+   </div>
+   <div class="card">
+      <div class="content">
+         <img class="dodatak" src="../SveOdNule/assets/slike/pizza.webp" > 
+         <h2>18:00-22:00</h2>
+         <h3>Vecera</h3>
+         <p>Lorem, ipsum dolor sit amet consectetur
+             adipisicing elit. Accusamus quos minus, tenetur earum quas cum facere voluptate. Earum aut tenetur 
+            libero veritatis dignissimos ipsum architecto dolorum quae totam? Dolorem, sapiente?</p>
+            <a href="#">Pogledaj vise</a>
+      </div>
+   </div>
+ </div>
+<!--"Drugi deo stranice"-->
+<img src="../SveOdNule/assets/slike/groceries.svg" alt="">
+<img src="../SveOdNule/assets/slike/groceries.svg" alt="">
+<section>
+    <div class="page2">
+        <h1>Promeni boju lagano</h1>
+        <p>
+           Iznad ce da stoji u prozirnim ikonicama / mozda ne i ikonicma sa ikonama sta se i zbog cega je mozda sam sajt napravljen / eventualno sta od koraka treba da se ispuni da bi se hrana narucila.
+           Dorucak rucak i vecera - tri ponude hrane sa menija uz slike
+        </p>
+    </div>
+    <img src="../SveOdNule/assets/slike/pocetna.jpg" alt="">
+</section>
+
+
 </body>
 </html>

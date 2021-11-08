@@ -22,3 +22,21 @@ const navSlide = () => {
 }
 
 navSlide();
+
+//Menjanje boje
+function promeniBoju(){
+    
+    if(this.scrollY  > this.innerHeight / 2 + 100) // na pola ce se ispuniti uslov
+    {
+        document.body.classList.add("bg-active");
+    }else{
+        document.body.classList.remove("bg-active");
+    }
+}
+window.addEventListener('scroll', promeniBoju)
+
+//sticky header 
+window.addEventListener("scroll",function(){
+    var nav = document.querySelector("nav");
+    nav.classList.toggle("sticky", window.scrollY > 0)
+})
